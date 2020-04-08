@@ -1,6 +1,6 @@
 import React from 'react';
 import Total from './Total.js';
-import Summary from './Summary.js';
+import Summary from './Options.js';
 
 class SelectedMenu extends React.Component {
 

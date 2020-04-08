@@ -1,5 +1,5 @@
 import React from 'react';
-import Features from './Features.js';
+import Features from './Specs.js';
 
 class FeatureMenu extends React.Component {
 render () {

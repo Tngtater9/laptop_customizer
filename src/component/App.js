@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import FeatureMenu from './FeatureMenu';
-import SelectedMenu from './SelectedMenu';
+import FeatureMenu from './MainForm';
+import SelectedMenu from './MainSummary';
 
 // This object will allow us to
 // easily convert numbers into US dollar values
