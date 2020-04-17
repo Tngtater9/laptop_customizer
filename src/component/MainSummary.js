@@ -1,6 +1,6 @@
 import React from 'react';
 import Total from './Total.js';
-import Summary from './Options.js';
+import Options from './Options.js';
 
 class SelectedMenu extends React.Component {
 
@@ -10,7 +10,7 @@ class SelectedMenu extends React.Component {
         return (
             <section className="main__summary">
             <h2>Your cart</h2>
-            <Summary selected={this.props.selected} />
+            <Options selected={this.props.selected} />
             <Total selected={this.props.selected} />
           </section>
         )
